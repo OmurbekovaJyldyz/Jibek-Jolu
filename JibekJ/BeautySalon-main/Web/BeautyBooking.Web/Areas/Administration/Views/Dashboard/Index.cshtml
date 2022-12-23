@@ -1,0 +1,40 @@
+﻿@using BeautyBooking.Common
+@{
+    this.ViewData["Title"] = "Админка";
+}
+
+<h3>Панель Админа</h3>
+<p>Быстрая навигация:</p>
+<div>
+
+    <a asp-area="Administration" asp-controller="Categories" asp-action="Index"
+       class="list-group-item list-group-item-action bg-light">Категории товаров</a>
+
+    <dvi class="ml-5 my-2">
+        <a class="btn btn-outline-info btn-sm" asp-area="Administration" asp-controller="Categories" asp-action="AddCategory">Добавить новую категорию </a>
+    </dvi>
+
+    <a asp-area="Administration" asp-controller="Services" asp-action="Index"
+       class="list-group-item list-group-item-action bg-light">Товары</a>
+
+    <div class="ml-5 my-2">
+        <a class="btn btn-outline-info btn-sm" asp-area="Administration" asp-controller="Services" asp-action="AddService">Добавить новый товар</a>
+    </div>
+
+    <a asp-area="Administration" asp-controller="Cities" asp-action="Index"
+       class="list-group-item list-group-item-action bg-light">Города</a>
+
+    <div class="ml-5 my-2">
+        <a class="btn btn-outline-info btn-sm" asp-area="Administration" asp-controller="Cities" asp-action="AddCity">Добавить новый город</a>
+    </div>
+
+    <a asp-area="Administration" asp-controller="Salons" asp-action="Index"
+       class="list-group-item list-group-item-action bg-light">Магазины</a>
+
+    <div class="ml-5 my-2">
+        <a class="btn btn-outline-info btn-sm" asp-area="Administration" asp-controller="Salons" asp-action="AddSalon">Добавить новый магазин</a>
+    </div>
+
+    <a asp-area="Administration" asp-controller="Appointments" asp-action="Index"
+       class="list-group-item list-group-item-action bg-light">Заказы</a>
+</div>

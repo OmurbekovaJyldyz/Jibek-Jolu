@@ -1,0 +1,9 @@
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\bin\Release\netstandard2.0\BeautyBooking.Data.Common.deps.json
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\bin\Release\netstandard2.0\BeautyBooking.Data.Common.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\bin\Release\netstandard2.0\BeautyBooking.Data.Common.pdb
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.csprojAssemblyReference.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.AssemblyInfoInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.AssemblyInfo.cs
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Common\obj\Release\netstandard2.0\BeautyBooking.Data.Common.pdb

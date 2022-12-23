@@ -1,0 +1,9 @@
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\bin\Release\netstandard2.0\BeautyBooking.Services.Messaging.deps.json
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\bin\Release\netstandard2.0\BeautyBooking.Services.Messaging.dll
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\bin\Release\netstandard2.0\BeautyBooking.Services.Messaging.pdb
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.csprojAssemblyReference.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.AssemblyInfoInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.AssemblyInfo.cs
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.dll
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services.Messaging\obj\Release\netstandard2.0\BeautyBooking.Services.Messaging.pdb

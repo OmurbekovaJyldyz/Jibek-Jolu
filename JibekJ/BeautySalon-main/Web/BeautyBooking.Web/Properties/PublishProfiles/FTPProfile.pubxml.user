@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFtLMWM/kE0ezLJCW2KyMfAAAAAACAAAAAAAQZgAAAAEAACAAAAAZ5N8SOrc0QuNz48DEeQ8djrPOo9XoqIWVJV5HT6Ni1gAAAAAOgAAAAAIAACAAAADtAwcalyeCH1R8sMiDHRQFyjOXl990HykTjebJYdmMpSAAAAA/9bILlzSnJYxQM97dY8XZCIQy0bd7n9my7zQQYqQCiUAAAAAX1f9R7YKRkeJ0o9glsgk77V5WP7KE2pMFeaAz+J9YQAoDfWIa7KI9vp9uYCQp8eLXPh3Np+d0H2yTVBeCt7yG</EncryptedPassword>
+    <_PublishTargetUrl>https://pathology-001-site1.ftempurl.com:8172/MsDeploy.axd?site=pathology-001-site1/pathology-001-site1</_PublishTargetUrl>
+    <History>True|2021-03-30T18:12:30.4582290Z;False|2021-03-30T22:06:36.7778278+04:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,56 @@
+﻿@model BeautyBooking.Web.ViewModels.Services.ServicesListViewModel
+@using BeautyBooking.Common
+@{
+    this.ViewData["Title"] = "Товары";
+}
+
+<h2>
+    Все товары (@Model.Services.Count())
+    <span>
+        <a class="btn btn-info" asp-area="Administration" asp-controller="Services" asp-action="AddService">Добавить новый товар</a>
+    </span>
+</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Название</th>
+            <th scope="col">Категория</th>
+            <th scope="col">Цена</th>
+            <th scope="col">Описание</th>
+            <th scope="col">Магазины в которых товар продается</th>
+            <th scope="col">Заказы</th>
+            <th scope="col">Удалить</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var service in this.Model.Services)
+        {
+            <tr>
+                <th scope="row">@service.Name</th>
+                <td>@service.CategoryName</td>
+                <td>@service.Price</td>
+                <td>@service.Description</td>
+                <td>@service.SalonsCount</td>
+                <td>@service.AppointmentsCount</td>
+                <td>
+                    @if (service.Id <= GlobalConstants.SeededDataCounts.Services)
+                    {
+                        <div class="text-muted" style="font-size:smaller">
+                            Изначальные товары <br />Нельзя удалить!
+                        </div>
+                    }
+                    else
+                    {
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    asp-area="Administration" asp-controller="Services" asp-action="DeleteService" asp-route-id="@service.Id">
+                                Удалить
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

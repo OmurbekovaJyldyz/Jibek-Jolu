@@ -1,0 +1,72 @@
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.deps.json
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.dll
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.dll
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.pdb
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.pdb
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csprojAssemblyReference.cache
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfo.cs
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CopyComplete
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Desktop\BeautyBooking ORIGINAL\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.deps.json
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.dll
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.dll
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.pdb
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.pdb
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csprojAssemblyReference.cache
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfo.cs
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CopyComplete
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Downloads\BeautyBooking-master\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.deps.json
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.pdb
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.pdb
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csprojAssemblyReference.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfo.cs
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CopyComplete
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\Terry\Downloads\BeautySalon\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.deps.json
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.dll
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.dll
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.pdb
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.pdb
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CopyComplete
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\user\Desktop\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.deps.json
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.dll
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.dll
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Common.pdb
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\bin\Debug\netstandard2.1\BeautyBooking.Data.Common.pdb
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.AssemblyInfo.cs
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.csproj.CopyComplete
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.dll
+C:\Users\User\Downloads\BeautySalon-main\BeautySalon-main\Data\BeautyBooking.Data.Models\obj\Debug\netstandard2.1\BeautyBooking.Data.Models.pdb

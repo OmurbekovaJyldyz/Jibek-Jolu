@@ -1,0 +1,34 @@
+﻿@model List<BeautyBooking.Data.Models.Tovar>
+@{
+    ViewData["Title"] = "Tovar'page";
+}
+
+
+<h1>Tovars</h1>
+<a class="btn btn-primary" asp-controller="Tovar" asp-action="New">New tovar</a>
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>count</th>
+        <th>cost</th>
+        <th>description</th>
+        <th>comment</th>
+        <th>Action edit</th>
+        <th>Action delete</th>
+    </tr>
+    @foreach (var student in Model)
+    {
+        <tr>
+            <td>@student.Id</td>
+            <td>@student.Name</td>
+            <td>@student.count</td>
+            <td>@student.cost</td>
+            <td>@student.descrip</td>
+            <td>@student.comment</td>
+
+            <td><a class="btn btn-success" asp-controller="Tovar" asp-action="Edit" asp-route-id="@student.Id">Edit</a></td>
+            <td><a class="btn btn-danger" asp-controller="Tovar" asp-action="Delete" asp-route-id="@student.Id">Delete</a></td>
+        </tr>
+    }
+</table>

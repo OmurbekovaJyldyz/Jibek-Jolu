@@ -1,0 +1,75 @@
+﻿@using BeautyBooking.Data.Models;
+@using BeautyBooking.Data;
+@model BeautyBooking.Web.ViewModels.TovarCreateViewModel
+@{
+	ViewData["Title"] = "New Tovars's Page";
+	List<Tovar> tov;
+	using (var db = new JibekDbContext())
+	{
+		tov = db.Tovars.ToList();
+
+	}
+}
+
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+		  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+		  crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+			integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+			crossorigin=""></script>
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+
+		.leaflet-container {
+			height: 500px;
+			width: 700px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
+
+	<meta charset="utf-8" />
+	<title>Название сайта</title>
+</head>
+<form asp-controller="Tovar" asp-action="Create" asp-method="post">
+	<div class="mb-1"><label asp-for="Name" class="form-label"></label>:<input class="form-control" asp-for="Name" /><br /></div>
+	<div class="mb-1"><label asp-for="count" class="form-label"></label>:<input class="form-control" asp-for="count" /><br /></div>
+	<div class="mb-1"><label asp-for="cost" class="form-label"></label>:<input class="form-control" asp-for="cost" /><br /></div>
+	<div class="mb-1"><label asp-for="descrip" class="form-label"></label>:<input class="form-control" asp-for="descrip" /><br /></div>
+	<div class="mb-1"><label asp-for="comment" class="form-label"></label>:<input class="form-control" asp-for="comment" /><br /></div>
+	<div class="mb-1"><label asp-for="dolg" class="form-label"></label>:<input class="form-control" asp-for="dolg" /><br /></div>
+	<div class="mb-1"><label asp-for="shir" class="form-label"></label>:<input class="form-control" asp-for="shir" /><br /></div>
+	<div>
+		<div id="map"></div>
+
+
+
+		<script>
+
+			const map = L.map('map').setView([42.84508572992866, 74.58741503902155], 30);
+
+			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+				{
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				}).addTo(map);
+			map.on('click', function (e) {
+				var coord = e.latlng;
+				var lat = coord.lat;
+				var lng = coord.lng;
+				//console.log("You clicked the map at latitude: " + lat + " and longitude: " + lng);
+				console.log(lat);
+				console.log(lng);
+				document.getElementById('dolg').value = lat;
+				document.getElementById('shir').value = lng;
+			});
+		</script>
+
+
+	</div>
+
+	<button type="submit" class="btn btn-primary">Create</button>
+</form>

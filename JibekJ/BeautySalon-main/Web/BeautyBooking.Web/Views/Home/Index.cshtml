@@ -1,0 +1,241 @@
+﻿@using BeautyBooking.Data.Models;
+@using BeautyBooking.Data;
+
+@*@model BeautyBooking.Web.ViewModels.Home.IndexViewModel
+*@@{
+    this.ViewData["Title"] = "Главная страница Jibek-Jolu";
+    //List<Tovar> tov;
+    //List<string> coordinats;
+
+    //using (var db = new JibekDbContext())
+    //{
+    //    tov = db.Tovars.ToList();
+    //    foreach (var t in Model.Tovar)
+    //    {
+
+    //        //coordinats.Add();
+    //        //Console.WriteLine(t.dolg);
+
+    //    }
+    //}
+
+}
+
+<hr class="bg-dark mx-4" style="height: 6px;" />
+
+<div class="departments">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="section_title">У нас Вы найдете</div>
+                <div class="section_subtitle">разнообразие товаров</div>
+            </div>
+        </div>
+        <div class="row dept_row">
+            <div class="col">
+                <div class="dept_slider_container_outer">
+                    <div class="dept_slider_container">
+
+                        <!-- Slider -->
+                        <div class="owl-carousel owl-theme dept_slider">
+
+                            @foreach (var category in Model.Categories)
+                            {<!-- Slide -->
+                                <div class="owl-item dept_item">
+                                    <div class="dept_image"><img src="@category.ImageUrl" alt=""></div>
+                                    <div class="dept_content">
+                                        <div class="dept_title">@category.Name</div>
+                                        <div class="dept_link"><a>@category.Description</a></div>
+                                    </div>
+                                </div>}
+
+                        </div>
+                    </div>
+                    <!-- Dept Slider Nav -->
+                    <div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="button services_button ml-auto mr-auto">
+                    <a asp-area="" asp-controller="Categories" asp-action="Index"><span>Подробнее</span><span>Подробнее</span></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+<hr class="bg-dark mx-4" style="height: 6px;" />
+<!--test -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geolocation</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="map" style="width:100%; height: 80vh"></div>
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+
+    <script>
+
+        var map = L.map('map').setView([41.45632213015565, 74.44214272182636], 10);
+        mapLink = "<a href='http://openstreetmap.org'>OpenStreetMap</a>";
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: 'Leaflet &copy; ' + mapLink + ', contribution', maxZoom: 18 }).addTo(map);
+
+        var taxiIcon = L.icon({
+            iconUrl: "<a href='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs9rCWoSinq7iM4lIkhHGmH2-AphOLbFFCEQ&usqp=CAU'</a>",
+                    iconSize: [100, 100]
+        })
+        $.get("@Url.Action("GetAllLocation","Home")",function (data,status){})
+        var marker = L.marker([42.87468339519376, 74.53901491702995], { icon: taxiIcon }).addTo(map);
+       
+
+        map.on('click', function (e) {
+            console.log(e)
+            var newMarker = L.marker([e.latlng.lat, e.latlng.lng]).addTo(map);
+            L.Routing.control({
+                waypoints: [
+                    L.latLng(42.8450730380312, 74.58748163446711),
+                    L.latLng(e.latlng.lat, e.latlng.lng)
+                ]
+            }).on('routesfound', function (e) {
+                var routes = e.routes;
+                console.log(routes);
+
+                e.routes[0].coordinates.forEach(function (coord, index) {
+                    setTimeout(function () {
+                        marker.setLatLng([coord.lat, coord.lng]);
+                    }, 100 * index)
+                })
+
+            }).addTo(map);
+        });
+
+
+    </script>
+
+
+</body>
+
+</html>
+
+@*<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+          integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+          crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+            integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+            crossorigin=""></script>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .leaflet-container {
+            height: 500px;
+            width: 700px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <meta charset="utf-8" />
+    <title>Название сайта</title>
+</head>
+<body>
+    <div id="map"></div>
+    Жибек-Жолу
+
+    <script>
+
+        const map = L.map('map').setView([42.84508572992866, 74.58741503902155], 30);
+
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+            {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+    </script>
+    @foreach (var tovar in Model.Tovar)
+    {
+
+        <script>
+            L.marker([@tovar.dolg, @tovar.shir]).addTo(map)
+                .bindPopup('@tovar.descrip');
+            console.log('<%=@tovar.dolg%>');</script>
+
+
+
+
+    }
+
+    @*L.marker([42.84508572992866, 74.58741503902155]).addTo(map)
+    .bindPopup('Это наш университет!');
+    L.marker([42.878041, 74.612502]).addTo(map)
+    .bindPopup('Театр');*@
+
+
+@*</body>
+</html>*@
+
+<!-- FAQ & News -->
+
+<div class="stuff">
+    <div class="container">
+        <div class="row">
+
+            <!-- FAQ -->
+            <div class="col-lg-7 align-items-center">
+                <div class="faq">
+                    <div class="faq_title">О нашем приложении</div>
+                    <div class="elements_accordions">
+                        <div class="accordions">
+
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center active"><div>Что это за сайт?</div></div>
+                                <div class="accordion_panel">
+                                    <div>
+                                        <p>
+                                            Наше приложение отличная платформа для ваших удобных покупок.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion_container">
+                                <div class="accordion d-flex flex-row align-items-center"><div> Спасибо, что выбрали нас. </div></div>
+                                <div class="accordion_panel">
+                                    <div>
+                                        <p>
+                                           Надеемся вам понравится наше приложение. Удачи!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="bg-dark mx-4" style="height: 6px;" />

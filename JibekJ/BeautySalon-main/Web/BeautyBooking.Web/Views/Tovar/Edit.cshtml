@@ -1,0 +1,14 @@
+﻿@model BeautyBooking.Web.ViewModels.TovarEditViewModel
+@{
+	ViewData["Title"] = "Edit Tovars Page";
+}
+
+@*<form asp-controller="Client" asp-action="Edit" asp-method="post">*@
+<form asp-controller="Tovar" asp-action="Edit" asp-route-id="@Model.Id" asp-method="post">
+	<div class="mb-1"><label asp-for="Name" class="form-label"></label>:<input class="form-control" asp-for="Name" /><br /></div>
+	<div class="mb-1"><label asp-for="count" class="form-label"></label>:<input class="form-control" asp-for="count" /><br /></div>
+	<div class="mb-1"><label asp-for="cost" class="form-label"></label>:<input class="form-control" asp-for="cost" /><br /></div>
+	<div class="mb-1"><label asp-for="descrip" class="form-label"></label>:<input class="form-control" asp-for="descrip" /><br /></div>
+	<div class="mb-1"><label asp-for="comment" class="form-label"></label>:<input class="form-control" asp-for="comment" /><br /></div>
+	<button type="submit" class="btn btn-success">Update</button>
+</form>

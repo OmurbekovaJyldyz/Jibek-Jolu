@@ -1,0 +1,12 @@
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\bin\Release\netstandard2.0\BeautyBooking.Services.deps.json
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\bin\Release\netstandard2.0\BeautyBooking.Services.dll
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\bin\Release\netstandard2.0\BeautyBooking.Services.pdb
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\bin\Release\netstandard2.0\BeautyBooking.Common.dll
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\bin\Release\netstandard2.0\BeautyBooking.Common.pdb
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.csprojAssemblyReference.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.AssemblyInfoInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.AssemblyInfo.cs
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.csproj.CoreCompileInputs.cache
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.csproj.CopyComplete
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.dll
+C:\Users\Terry\Downloads\BeautySalon\Services\BeautyBooking.Services\obj\Release\netstandard2.0\BeautyBooking.Services.pdb

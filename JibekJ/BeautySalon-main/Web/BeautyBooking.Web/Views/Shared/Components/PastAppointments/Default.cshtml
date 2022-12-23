@@ -1,0 +1,54 @@
+﻿@model BeautyBooking.Web.ViewModels.Appointments.AppointmentsListViewModel
+@{
+    this.ViewData["Title"] = "Заказы";
+}
+
+@if (@Model.Appointments.Count() > 0)
+{
+    <h2>Предыдущие заказы (@Model.Appointments.Count())</h2>
+
+    <table class="table table-bordered table-striped">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">Дата и время</th>
+                <th scope="col">Магазин</th>
+                <th scope="col">Адрес</th>
+                <th scope="col">Услуга</th>
+                <th scope="col">Оценить магазин</th>
+                <th scope="col">Заказать</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var appointment in this.Model.Appointments)
+            {
+                <tr>
+                    <th scope="row">@appointment.DateTime</th>
+                    <td>@appointment.SalonName</td>
+                    <td>@appointment.SalonCityName, @appointment.SalonAddress</td>
+                    <td>@appointment.ServiceName</td>
+                    <td>
+                        @if (appointment.IsSalonRatedByTheUser == true)
+                        {
+                            <p>Уже оценено!</p>
+                        }
+                        else
+                        {
+                            <a class="btn btn-outline-success btn-sm"
+                               asp-area="" asp-controller="Appointments" asp-action="RatePastAppointment" asp-route-id="@appointment.Id">
+                                оценить магазин
+                            </a>
+                        }
+                    </td>
+                    <td>
+                        <div class="button elements_button">
+                            <a asp-area="" asp-controller="Appointments" asp-action="MakeAnAppointment" asp-route-salonId="@appointment.SalonId" asp-route-serviceId="@appointment.ServiceId">
+                                <span>Повторить</span>
+                                <span>Повторить</span>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

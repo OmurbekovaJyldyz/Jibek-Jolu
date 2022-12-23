@@ -1,0 +1,48 @@
+﻿@model BeautyBooking.Web.ViewModels.Cities.CitiesListViewModel
+@using BeautyBooking.Common
+@{
+    this.ViewData["Title"] = "Cities";
+}
+
+<h2>
+    Все города (@Model.Cities.Count())
+    <span>
+        <a class="btn btn-info" asp-area="Administration" asp-controller="Cities" asp-action="AddCity">Добавить новый город</a>
+    </span>
+</h2>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Название города</th>
+            <th scope="col">Кол-во магазинов</th>
+            <th scope="col">?Удалить</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var city in this.Model.Cities)
+        {
+            <tr>
+                <th scope="row">@city.Name</th>
+                <td>@city.SalonsCount</td>
+                <td>
+                    @if (city.Id <= GlobalConstants.SeededDataCounts.Cities)
+                    {
+                        <div class="text-muted" style="font-size:smaller">
+                            Изначально 2 города <br /> Нельзя удалить!
+                        </div>
+                    }
+                    else
+                    {
+                        <form method="post">
+                            <button type="submit" class="btn btn-danger btn-sm"
+                                    asp-area="Administration" asp-controller="Cities" asp-action="DeleteCity" asp-route-id="@city.Id">
+                                Удалить
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
